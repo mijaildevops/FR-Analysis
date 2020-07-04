@@ -10,7 +10,7 @@ form.addEventListener('submit', function(event){
         usuario: user.value,
        
     });
-    console.log(users);
+    //console.log(users);
     //localStorage.setItem('User',JSON.stringify(users));
     //location.href='Api-data.html';
     
@@ -30,7 +30,7 @@ form.addEventListener('submit', function(event){
         .then(Res=>{
         //console.log(Res)
         let MError = Res.Error
-        console.log(MError)
+        //console.log(MError)
 
         if (MError === undefined) {
   
