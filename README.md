@@ -1,2 +1,2 @@
-# FR-Analysis
-App-External utilizando la API para reconocimiento facial de Vsblty
+# Enigma
+proyecto-Cliente HTML-Js, integrado con la API de VSBLTY para el reconocimiento facial (Live-Endpoint-Data)
