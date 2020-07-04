@@ -422,8 +422,7 @@ function UserData (){
                     if (IntervaloUser === 1) {
                       IntervaloS.innerHTML += `
                         <select class="form-control"  name="Intervalo">
-                            <option value="1" selected>1 Segundos</option>
-                            <option value="10">10 Segundos</option>
+                            <option value="10" selected>10 Segundos</option>
                             <option value="30">30 Segundos</option>
                             <option value="60">60 Segundos</option>
                         </select>
@@ -431,7 +430,6 @@ function UserData (){
                     } else if (IntervaloUser === 10) {
                       IntervaloS.innerHTML += `
                         <select class="form-control"  name="Intervalo">
-                            <option value="1">1 Segundos</option>
                             <option value="10" selected>10 Segundos</option>
                             <option value="30" >30 Segundos</option>
                             <option value="60">60 Segundos</option>
@@ -440,7 +438,6 @@ function UserData (){
                     }else if (IntervaloUser === 30) {
                       IntervaloS.innerHTML += `
                         <select class="form-control"  name="Intervalo">
-                            <option value="1">1 Segundos</option>
                             <option value="10">10 Segundos</option>
                             <option value="30" selected>30 Segundos</option>
                             <option value="60">60 Segundos</option>
@@ -449,7 +446,6 @@ function UserData (){
                     } else {
                       IntervaloS.innerHTML += `
                         <select class="form-control"  name="Intervalo">
-                            <option value="1">1 Segundos</option>
                             <option value="10">10 Segundos</option>
                             <option value="30">30 Segundos</option>
                             <option value="60" selected>60 Segundos</option>
